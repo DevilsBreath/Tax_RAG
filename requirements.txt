@@ -1,0 +1,9 @@
+sentence-transformers
+faiss-cpu
+pypdf
+llama-cpp-python
+fastapi
+uvicorn
+streamlit
+requests
+rouge-score

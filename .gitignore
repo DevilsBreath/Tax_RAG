@@ -1,0 +1,29 @@
+# Claude Code
+.claude/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Models and Vectors
+MODEL/
+vectorstore/
+data/*.pdf
+data/*.txt
+data/extracted_pdf_text.txt
+!data/eval_dataset.json
+data/hf/
+
+# Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
