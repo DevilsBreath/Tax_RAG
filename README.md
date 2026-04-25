@@ -27,7 +27,7 @@ A production-ready, fully local Retrieval-Augmented Generation (RAG) pipeline de
 ```bash
 # Clone the repository
 git clone https://github.com/DevilsBreath/Tax_RAG.git
-cd TaxRAG
+cd Tax_RAG
 
 # Install dependencies
 pip install -r requirements.txt
@@ -55,8 +55,8 @@ streamlit run app.py
 ## Docker Deployment
 This project is fully containerized.
 ```bash
-docker build -t taxRAG .
-docker run -p 8000:8000 -p 8501:8501 taxRAG
+docker build -t tax_RAG .
+docker run -p 8000:8000 -p 8501:8501 tax_RAG
 ```
 
 ## Evaluation
