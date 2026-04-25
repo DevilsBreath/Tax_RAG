@@ -1,5 +1,3 @@
-# Claude Code
-.claude/
 
 # Environments
 .env
@@ -13,6 +11,7 @@ venv.bak/
 # Models and Vectors
 MODEL/
 vectorstore/
+data/TAX/*.pdf
 data/*.pdf
 data/*.txt
 data/extracted_pdf_text.txt
