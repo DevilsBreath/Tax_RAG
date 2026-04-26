@@ -48,5 +48,6 @@ def chat(request: QueryRequest):
         answer, evidence = pipeline.answer_question(request.question, top_k=request.top_k)
         return {"answer": answer, "evidence": evidence}
     except Exception as e:
-        logger.error(f"Error during chat: {e}")
-        raise HTTPException(status_code=500, detail=str(e))
+        detail = str(e).strip() or f"{type(e).__name__}: {repr(e)}"
+        logger.exception("Error during chat")
+        raise HTTPException(status_code=500, detail=detail)

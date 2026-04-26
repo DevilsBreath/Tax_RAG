@@ -43,6 +43,13 @@ class VectorStore:
     def retrieve(self, query: str, top_k: int = 3) -> List[Dict[str, Any]]:
         if self.index is None:
             self.load()
+
+        model_dim = int(self.embedder.get_sentence_embedding_dimension())
+        if self.index.d != model_dim:
+            raise RuntimeError(
+                f"Embedding/index dimension mismatch: embedder={model_dim}, index={self.index.d}. "
+                "Set EMBED_MODEL_DIR to the same model used for ingest, or re-run ingest_data.py."
+            )
             
         q_vec = self.embedder.encode([query], convert_to_numpy=True, normalize_embeddings=True).astype("float32")
         scores, ids = self.index.search(q_vec, top_k)
