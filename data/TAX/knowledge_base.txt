@@ -1,0 +1,143 @@
+# Indian Tax Law – Key Facts Reference (FY 2025-26 / AY 2026-27)
+
+## New Tax Regime Default Status
+
+The new tax regime under section 115BAC is the DEFAULT tax regime for FY 2025-26. Taxpayers who want to use the old regime must explicitly opt out of the new regime by filing Form 10-IEA before the due date of filing the return.
+
+A person having business or professional income who opts out of the new tax regime can do so only ONCE. Once they revert to the old regime, they cannot opt back into the new regime for subsequent years, except in the year when they have no business income.
+
+## Standard Deduction for Salaried Employees
+
+The standard deduction for salaried employees and pensioners under the new tax regime (section 115BAC) for FY 2025-26 is rupees 75,000. Under the old tax regime, the standard deduction for salaried employees is rupees 50,000.
+
+## New Tax Regime – Income Tax Slabs (FY 2025-26)
+
+Tax slabs for individuals under the new tax regime for FY 2025-26 are:
+- Up to rupees 3,00,000: Nil (no tax)
+- rupees 3,00,001 to rupees 7,00,000: 5%
+- rupees 7,00,001 to rupees 10,00,000: 10%
+- rupees 10,00,001 to rupees 12,00,000: 15%
+- rupees 12,00,001 to rupees 15,00,000: 20%
+- Above rupees 15,00,000: 30%
+
+Income between rupees 8,00,001 and rupees 10,00,000 is taxed at 10% under the new tax regime. Income between rupees 10,00,001 and rupees 12,00,000 is taxed at 15% under the new tax regime.
+
+## Deduction under 80C (Old Tax Regime Only)
+
+The maximum deduction allowed under section 80C of the Income Tax Act is rupees 1,50,000 per financial year. This deduction is available ONLY under the old tax regime and NOT under the new tax regime. It applies to investments in PPF (Public Provident Fund), LIC premium, ELSS mutual funds, NSC, 5-year fixed deposits, ULIP, repayment of home loan principal, and tuition fees for children.
+
+## Deduction under 80D – Health Insurance
+
+The deduction for health insurance premium under section 80D is up to rupees 25,000 for self and family, and up to rupees 50,000 if the insured person is a senior citizen. This is available only under the old tax regime.
+
+## Home Loan Interest Deduction under 24(b)
+
+The deduction for interest on a home loan for a self-occupied property under section 24(b) is up to rupees 2,00,000 per year, available only under the old tax regime.
+
+## HRA and Home Loan Interest – Simultaneous Claim
+
+House Rent Allowance (HRA) exemption under section 10(13A) can be claimed simultaneously with the home loan interest deduction under section 24(b), provided there is a genuine reason for renting such as the owned and rented properties being in different cities.
+
+## House Property Taxation
+
+From the gross annual value (rent received or receivable), municipal taxes actually paid by the owner are deducted to arrive at the Net Annual Value (NAV). From NAV, two deductions are allowed under section 24:
+First, a standard deduction of 30% of NAV under section 24(a).
+Second, interest on borrowed capital (home loan) under section 24(b).
+Rent received from a house property is NOT fully taxable because of these deductions.
+
+## Agricultural Income Exemption
+
+Agricultural income is EXEMPT from income tax under section 10(1) of the Income Tax Act. However, when a taxpayer has both agricultural income and non-agricultural income that exceeds the basic exemption limit, agricultural income is included only for the purpose of computing the applicable tax rate on non-agricultural income. This is called partial integration or rate inclusion.
+
+## Capital Gains on Equity Shares
+
+Long-term capital gains (LTCG) on listed equity shares, units of equity-oriented mutual funds, and units of business trusts where Securities Transaction Tax (STT) is paid, are taxable under section 112A at 12.5% on gains exceeding rupees 1,25,000 in a financial year. No indexation benefit is available. LTCG on equity shares is NOT exempt from tax.
+
+Short-term capital gains on listed equity shares where STT is paid are taxable under section 111A at 20%.
+
+## Cryptocurrency and Virtual Digital Assets (VDA)
+
+Income from transfer of Virtual Digital Assets (VDA) including cryptocurrencies is taxable at a flat rate of 30% under section 115BBH, plus applicable surcharge and Health and Education Cess. No deduction other than cost of acquisition is allowed. No set-off of losses from VDA against any other income is permitted.
+
+## TDS on Professional and Technical Fees – 194J
+
+TDS rates under section 194J for fees for professional or technical services:
+- 2% for fees for technical services (not professional services), call centre services, or royalty in the nature of sale, distribution, or exhibition of cinematographic films.
+- 10% for all other professional services such as doctors, lawyers, architects, and consultants.
+The threshold limit under section 194J is rupees 30,000 per year.
+
+## TDS on Rent – 194I and 194IB
+
+TDS on rent under section 194-I must be deducted if the total rent paid or payable during the financial year exceeds rupees 2,40,000. The TDS rate is 10% for rent of land, building, furniture, plant, or machinery.
+
+A separate provision under section 194-IB applies to individuals or HUF not covered under 194-I: TDS at 5% if monthly rent paid exceeds rupees 50,000 per month.
+
+## TAN – Tax Deduction and Collection Account Number
+
+Every person who is responsible for deducting tax at source (TDS) or collecting tax at source (TCS) is required to obtain a Tax Deduction and Collection Account Number (TAN), which is a 10-digit alphanumeric number, under section 203A of the Income Tax Act.
+
+## Health and Education Cess
+
+Health and Education Cess is levied at the rate of 4% on the amount of income tax and surcharge for all categories of taxpayers.
+
+## Form 3CD – Tax Audit
+
+Form 3CD is a statement of particulars required to be furnished under section 44AB of the Income Tax Act along with the audit report. It is prepared and certified by a Chartered Accountant (CA) as part of the Tax Audit report (Form 3CA or Form 3CB).
+
+Tax audit under section 44AB is compulsory when a business has turnover exceeding rupees 1 crore (or rupees 10 crore if 95% or more transactions are digital), or when a professional has gross receipts exceeding rupees 50 lakh.
+
+## ITR-1 (Sahaj) – Eligibility and Restrictions
+
+ITR-1 (Sahaj) can be filed ONLY by a RESIDENT INDIVIDUAL with total income up to rupees 50 lakh, having income from salaries, one house property, other sources such as interest income, and agricultural income up to rupees 5,000.
+
+Non-Resident Indians (NRIs) and Resident but Not Ordinarily Residents (RNORs) CANNOT file ITR-1. They must use ITR-2 or ITR-3. Individuals with income from business or profession also CANNOT use ITR-1.
+
+## ITR-2, ITR-3, ITR-4 – Who Should File
+
+ITR-2 is for individuals and HUFs not having income from business or profession. Used by NRIs, individuals with capital gains, more than one house property, or foreign income.
+
+ITR-3 is for individuals and HUFs having income from business or profession.
+
+ITR-4 (Sugam) is for individuals, HUFs, and firms (other than LLP) who have opted for presumptive taxation under section 44AD, 44ADA, or 44AE. A doctor or medical professional can use ITR-4 if they opt for the presumptive taxation scheme under section 44ADA and their gross receipts do not exceed rupees 75 lakh (subject to at least 95% of receipts being through banking channels; otherwise the limit is rupees 50 lakh).
+
+## ITR Filing Due Dates and Late Filing Penalty
+
+The due date for filing the Income Tax Return (ITR) for individuals whose accounts are not required to be audited is July 31st of the assessment year (e.g., July 31, 2026 for AY 2026-27).
+
+The due date for taxpayers subject to tax audit is October 31st of the assessment year.
+
+A late filing fee under section 234F is charged if the return is filed after the due date:
+- rupees 5,000 if the return is filed after the due date and total income exceeds rupees 5,00,000.
+- rupees 1,000 if the total income does not exceed rupees 5,00,000.
+- No fee if total income is below the basic exemption limit.
+
+## GST Registration Thresholds
+
+The threshold limit for GST registration for service providers is aggregate turnover of rupees 20 lakh in a financial year (rupees 10 lakh for special category states like Manipur, Mizoram, Nagaland, and Tripura).
+
+The GST registration threshold for suppliers of goods is rupees 40 lakh aggregate turnover in most states (rupees 20 lakh for special category states).
+
+Certain businesses must register under GST regardless of turnover: inter-state suppliers, e-commerce operators, casual taxable persons, non-resident taxable persons, and those liable to pay under reverse charge.
+
+## CGST, SGST, IGST – Difference
+
+CGST (Central Goods and Services Tax) is levied by the Central Government on intra-state (within the same state) supplies of goods and services.
+
+SGST (State Goods and Services Tax) is levied by the State Government on intra-state supplies of goods and services. CGST and SGST are always levied together on intra-state supplies and their rates are equal.
+
+IGST (Integrated Goods and Services Tax) is levied by the Central Government on inter-state supplies of goods and services (supplies across two different states), as well as on imports into India and exports from India.
+
+UTGST (Union Territory GST) is levied by Union Territories without legislature, in place of SGST.
+
+## Input Tax Credit (ITC) under GST
+
+Input Tax Credit (ITC) is claimed under section 16 of the CGST Act, 2017. A registered person is entitled to take credit of input tax charged on any supply of goods or services used in the course or furtherance of business, subject to conditions including possession of a valid tax invoice, receipt of goods or services, payment of tax to the government by the supplier, and filing of GST returns.
+
+## GST Composition Scheme
+
+Under the Composition Scheme under section 10 of the CGST Act, eligible taxpayers with aggregate turnover up to rupees 1.5 crore can pay a flat percentage of their turnover as tax instead of regular GST:
+- Manufacturers and traders: 1% (0.5% CGST + 0.5% SGST).
+- Restaurants not serving alcohol: 5% (2.5% CGST + 2.5% SGST).
+- Other eligible service providers: 6% (3% CGST + 3% SGST) for turnover up to rupees 50 lakh.
+
+Businesses under the Composition Scheme CANNOT claim Input Tax Credit (ITC). They cannot collect GST from customers and cannot make inter-state supplies.

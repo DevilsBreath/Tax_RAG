@@ -16,16 +16,15 @@ def main():
     if pdf_files:
         logger.info(f"Found {len(pdf_files)} PDF files.")
         pages_data = read_text_from_pdfs(pdf_files)
-    
+
+    if config.KB_PATH.exists():
+        text = config.KB_PATH.read_text(encoding="utf-8")
+        pages_data.append({"text": text, "source": "knowledge_base.txt", "page": 1})
+        logger.info("Included knowledge_base.txt in ingestion.")
+
     if not pages_data:
-        # Fallback to plain text if no PDFs
-        if config.KB_PATH.exists():
-            text = config.KB_PATH.read_text(encoding="utf-8")
-            pages_data = [{"text": text, "source": "knowledge_base.txt", "page": 1}]
-            logger.info("Using fallback knowledge base.")
-        else:
-            logger.error("No PDFs or text found in data/TAX. Exiting.")
-            sys.exit(1)
+        logger.error("No PDFs or text found in data/TAX. Exiting.")
+        sys.exit(1)
 
     logger.info("Chunking text...")
     chunks = chunk_text(pages_data)

@@ -33,7 +33,7 @@ def main():
         expected = item["expected_answer"]
         
         logger.info(f"\n[{idx+1}/{len(dataset)}] Evaluating: {question}")
-        answer, context = pipeline.answer_question(question, top_k=4)
+        answer, context = pipeline.answer_question(question, top_k=8)
         
         metrics = evaluator.evaluate_response(question, expected, answer, context)
         

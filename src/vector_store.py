@@ -40,7 +40,7 @@ class VectorStore:
         self.chunks = json.loads(config.CHUNKS_PATH.read_text(encoding="utf-8"))
         logger.info(f"Loaded FAISS index with {len(self.chunks)} chunks.")
 
-    def retrieve(self, query: str, top_k: int = 3) -> List[Dict[str, Any]]:
+    def retrieve(self, query: str, top_k: int = 3, min_score: float = 0.25) -> List[Dict[str, Any]]:
         if self.index is None:
             self.load()
 
@@ -50,12 +50,15 @@ class VectorStore:
                 f"Embedding/index dimension mismatch: embedder={model_dim}, index={self.index.d}. "
                 "Set EMBED_MODEL_DIR to the same model used for ingest, or re-run ingest_data.py."
             )
-            
+
         q_vec = self.embedder.encode([query], convert_to_numpy=True, normalize_embeddings=True).astype("float32")
         scores, ids = self.index.search(q_vec, top_k)
-        
+
         hits = []
-        for rank, (doc_id, score) in enumerate(zip(ids[0], scores[0]), start=1):
+        rank = 1
+        for doc_id, score in zip(ids[0], scores[0]):
+            if float(score) < min_score:
+                continue
             chunk_data = self.chunks[int(doc_id)]
             if isinstance(chunk_data, str):
                 text, metadata = chunk_data, {}
@@ -67,4 +70,5 @@ class VectorStore:
                 "text": text,
                 "metadata": metadata
             })
+            rank += 1
         return hits
