@@ -7,7 +7,7 @@ A production-ready, fully local Retrieval-Augmented Generation (RAG) pipeline de
 - **Source Citations**: The LLM explicitly cites the exact source document and page number for every fact `[Source 1 | income_tax_act.pdf (Page 45)]`.
 - **Query Transformation**: Intercepts user queries and rewrites them into optimized vector search queries.
 - **Microservice Architecture**: Decoupled FastAPI backend and Streamlit frontend.
-- **Local AI Stack**: Powered by gemma 4 E4B UD Q4_K_XL.gguf and `all-MiniLM-L6-v2` via FAISS.
+- **Local AI Stack**: Powered by gemma 4 E4B UD Q4_K_XL.gguf and `bge-base-en-v1.5` via FAISS.
 - **Automated Evaluation**: Includes an evaluation pipeline to measure *Semantic Similarity*, *ROUGE-L*, and *Grounded Precision* against a golden dataset of tax queries.
 
 ## Architecture
@@ -64,4 +64,4 @@ To run the automated evaluation pipeline against the 25-question tax golden data
 ```bash
 python scripts/evaluate.py
 ```
-This will output an `evaluation_results.md` report detailing the performance of the system using ROUGE-L and Semantic Similarity metrics.
+This will output an `evaluation_results_2.md` report detailing the performance of the system using ROUGE-L and Semantic Similarity metrics.
